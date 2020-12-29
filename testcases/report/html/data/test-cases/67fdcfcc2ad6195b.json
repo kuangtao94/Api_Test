@@ -1,0 +1,52 @@
+{
+  "uid" : "67fdcfcc2ad6195b",
+  "name" : "test_book_001",
+  "fullName" : "test_Books.TestBooks#test_book_001",
+  "historyId" : "757591063584cd839b457e9faaea6bcc",
+  "time" : {
+    "start" : 1589986488390,
+    "stop" : 1589986488447,
+    "duration" : 57
+  },
+  "description" : "查询所有书籍信息",
+  "descriptionHtml" : "<p>查询所有书籍信息</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_Books"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBooks"
+  }, {
+    "name" : "host",
+    "value" : "XTM-02004160107"
+  }, {
+    "name" : "thread",
+    "value" : "12692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Books"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "67fdcfcc2ad6195b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,52 @@
+{
+  "uid" : "5c71c68aafc9eec1",
+  "name" : "test_books[datas2]",
+  "fullName" : "test_book_token#test_books",
+  "historyId" : "7b20b418c8c720f06a2266e37b94e244",
+  "time" : {
+    "start" : 1591023476891,
+    "stop" : 1591023477119,
+    "duration" : 228
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_book_token"
+  }, {
+    "name" : "host",
+    "value" : "XTM-02004160107"
+  }, {
+    "name" : "thread",
+    "value" : "6848-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_book_token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "{'接口用例ID': 'book_003', '模块': '书籍管理系统', '接口名称': '查看书籍接口', '前置条件': 'login', '请求地址': 'http://127.0.0.1:5550/v1/api/book/{bookid}', '请求头': '{\"Authorization\":\"JWT {token}\"}', '请求参数': '', '请求方法': 'get', '预期结果': 'Jemter性能测试', '协议状态码': 200.0, '是否执行': 'y'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c71c68aafc9eec1.json",
+  "parameterValues" : [ "{'接口用例ID': 'book_003', '模块': '书籍管理系统', '接口名称': '查看书籍接口', '前置条件': 'login', '请求地址': 'http://127.0.0.1:5550/v1/api/book/{bookid}', '请求头': '{\"Authorization\":\"JWT {token}\"}', '请求参数': '', '请求方法': 'get', '预期结果': 'Jemter性能测试', '协议状态码': 200.0, '是否执行': 'y'}" ]
+}

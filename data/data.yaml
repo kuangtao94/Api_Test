@@ -1,0 +1,64 @@
+#验证登录成功
+url: http://127.0.0.1:5000/login
+method: post
+data:
+  username: Admin
+  password: Admin
+  age: 22
+  sex: 男
+except:
+  username: Admin
+  password: Admin
+  age: 22
+  sex: 男
+
+#验证用户名为空
+---
+url: http://127.0.0.1:5000/login
+method: post
+data:
+  password: Admin
+  age: 22
+  sex: 男
+except:
+  message:
+    username: 您的用户名验证错误
+
+#验证密码为空
+---
+url: http://127.0.0.1:5000/login
+method: post
+data:
+  username: Admin
+  age: 22
+  sex: 男
+except:
+  message:
+    password: 账户密码不能为空
+
+#验证年龄为浮点数
+---
+url: http://127.0.0.1:5000/login
+method: post
+data:
+  username: Admin
+  password: Admin
+  age: nan
+  sex: 男
+except:
+  message:
+    age: 年龄必须为正正数
+
+#验证sex为非男女
+---
+url: http://127.0.0.1:5000/login
+method: post
+data:
+  username: Admin
+  password: Admin
+  age: 22.8
+  sex: 第三方
+except:
+  message:
+    sex: 性别只能是男或者女
+

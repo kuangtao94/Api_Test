@@ -1,0 +1,139 @@
+{
+  "uid" : "19fcb778e2cbd348",
+  "name" : "test_book_004",
+  "fullName" : "test_Books.TestBooks#test_book_004",
+  "historyId" : "b328997a1db919cf7d4f8b2834b3397c",
+  "time" : {
+    "start" : 1609250796646,
+    "stop" : 1609250796680,
+    "duration" : 34
+  },
+  "description" : "更新/修改已添加的书籍",
+  "descriptionHtml" : "<p>更新/修改已添加的书籍</p>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_Books"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBooks"
+  }, {
+    "name" : "host",
+    "value" : "XTM-02004160107"
+  }, {
+    "name" : "thread",
+    "value" : "14036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Books"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6c092836a217c890",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5555): Max retries exceeded with url: /v1/api/book/4 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000004A2EE50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1609250760216,
+        "stop" : 1609250761235,
+        "duration" : 1019
+      }
+    }, {
+      "uid" : "2e882fa6052813f3",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5555): Max retries exceeded with url: /v1/api/book/4 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000004C65EE0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1609249909479,
+        "stop" : 1609249910498,
+        "duration" : 1019
+      }
+    }, {
+      "uid" : "7c7fa46714fbc0a4",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5555): Max retries exceeded with url: /v1/api/book/4 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000004DE06D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1591066783095,
+        "stop" : 1591066784111,
+        "duration" : 1016
+      }
+    }, {
+      "uid" : "b8dc0cd8fa83a3e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589986521419,
+        "stop" : 1589986521460,
+        "duration" : 41
+      }
+    }, {
+      "uid" : "dab2164aacbc5361",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589986488587,
+        "stop" : 1589986488633,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "f852a04716cb9936",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5555): Max retries exceeded with url: /v1/api/book/4 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000004BBF400>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1589986415683,
+        "stop" : 1589986416697,
+        "duration" : 1014
+      }
+    }, {
+      "uid" : "eedbb99cab18dcbc",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5555): Max retries exceeded with url: /v1/api/book/4 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000004B314F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1589812768097,
+        "stop" : 1589812769230,
+        "duration" : 1133
+      }
+    }, {
+      "uid" : "876a33de86f08b6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589713305712,
+        "stop" : 1589713305743,
+        "duration" : 31
+      }
+    }, {
+      "uid" : "c71809b66b72ef1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589711199468,
+        "stop" : 1589711199499,
+        "duration" : 31
+      }
+    }, {
+      "uid" : "d75b5b6fc6084ceb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589710923619,
+        "stop" : 1589710923650,
+        "duration" : 31
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "19fcb778e2cbd348.json",
+  "parameterValues" : [ ]
+}

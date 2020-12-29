@@ -1,0 +1,20 @@
+login:
+    {
+      "username":"admin",
+      "password":"Admin"
+    }
+
+
+book_002:
+  {
+    "author":"Tao",
+    "name":"Jemter性能测试",
+    "done":false
+  }
+
+book_004:
+  {
+    "author":"TAO",
+    "name":"Fiddler抓包工具",
+    "done":true
+  }

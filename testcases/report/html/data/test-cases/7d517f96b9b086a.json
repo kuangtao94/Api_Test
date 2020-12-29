@@ -1,0 +1,52 @@
+{
+  "uid" : "7d517f96b9b086a",
+  "name" : "test_book_005",
+  "fullName" : "test_Books.TestBooks#test_book_005",
+  "historyId" : "1df50dc2c5760f120c88ced35472e340",
+  "time" : {
+    "start" : 1589713305743,
+    "stop" : 1589713305758,
+    "duration" : 15
+  },
+  "description" : "删除已编辑的书籍",
+  "descriptionHtml" : "<p>删除已编辑的书籍</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_Books"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBooks"
+  }, {
+    "name" : "host",
+    "value" : "XTM-02004160107"
+  }, {
+    "name" : "thread",
+    "value" : "980-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Books"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d517f96b9b086a.json",
+  "parameterValues" : [ ]
+}
