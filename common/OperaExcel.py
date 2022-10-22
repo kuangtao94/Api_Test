@@ -88,6 +88,11 @@ class OperationExcel(OperaYaml):
         return self.readBookYaml()[self.readData(rowx)]
 
 
+    def readJsontodict(self, row, **kwargs):
+        """测试入参直接用字典更新替换"""
+        data = json.loads(self.readData(row))  # json反序列化将str转换dictionary
+        data.update(kwargs)
+        return data
 
 if __name__ == '__main__':
     obj = OperationExcel()
