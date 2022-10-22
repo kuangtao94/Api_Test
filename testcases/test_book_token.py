@@ -1,8 +1,8 @@
 import pytest,json
-from TestCase.ApiLogin_Po.common.OperaExcelOne import *
-from TestCase.ApiLogin_Po.base.method import Requests
+from common.OperaExcelOne import *
+from base.method import Requests
 from requests.auth import HTTPBasicAuth
-from TestCase.ApiLogin_Po.common.helper import *
+from common.helper import *
 
 obj = OperationExcel()
 excel = ExcelValues()

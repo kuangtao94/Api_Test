@@ -35,7 +35,7 @@ class TestBooks:
         """添加书籍请求"""
         r = self.obj.post(
             url=self.excel.readUrl(2),
-            json=self.excel.readJsontodict(2,name="测试开发1"),
+            json=self.excel.readJsonValues(2),
             auth=self.auth
         )
         writeBookID(r.json()['data']['ID'])
@@ -81,7 +81,7 @@ class TestBooks:
         """更新/修改已添加的书籍"""
         r = self.obj.put(
             url=self.excel.readUrl(4),
-            json=self.excel.readJsontodict(4,name="测试开发2"),
+            json=self.excel.readJsonValues(4),
             auth=self.auth
         )
         try:

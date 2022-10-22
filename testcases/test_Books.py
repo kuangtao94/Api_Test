@@ -1,8 +1,8 @@
 import pytest
 import json
-from TestCase.ApiLogin_Po.base.method import Requests
-from TestCase.ApiLogin_Po.common.OperaExcel import OperationExcel
-from TestCase.ApiLogin_Po.common.helper import *
+from base.method import Requests
+from common.OperaExcel import OperationExcel
+from common.helper import *
 from requests.auth import HTTPBasicAuth
 
 
