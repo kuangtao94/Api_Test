@@ -1,7 +1,8 @@
+import json
 import xlrd
-from TestCase.ApiLogin_Po.common.OperaYaml import OperaYaml
-from TestCase.ApiLogin_Po.common.helper import *
-
+from common.OperaYaml import OperaYaml
+from common.helper import *
+from xlutils.copy import copy
 
 class ExcelValues:
     """Excel表的列固定"""
@@ -88,8 +89,27 @@ class OperationExcel(OperaYaml):
         return self.readBookYaml()[self.readData(rowx)]
 
 
+    def write_data(self, row, col, value):
+        """
+        测试用例标记写入结果
+        :param row: 行数
+        :param col: 列数
+        :param value: result 结果值
+        :return: 写入excel中
+        """
+        table = xlrd.open_workbook(FilePath(filePath='data', fileName='data.xlsx'))
+        table_copy = copy(table)
+        sheet = table_copy.get_sheet(0)
+        sheet.write(row, col, value)
+        table_copy.save(FilePath(filePath='data', fileName='data.xlsx'))
+
     def readJsontodict(self, row, **kwargs):
-        """测试入参直接用字典更新替换"""
+        """
+        测试入参直接用字典更新替换
+        :param row: 行数
+        :param kwargs: 可变key-value参数
+        :return: 返回字典格式
+        """
         data = json.loads(self.readData(row))  # json反序列化将str转换dictionary
         data.update(kwargs)
         return data

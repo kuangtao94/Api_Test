@@ -1,5 +1,5 @@
 import xlrd
-from TestCase.ApiLogin_Po.common.helper import  FilePath
+from common.helper import FilePath
 import json
 import yaml
 

@@ -1,4 +1,4 @@
-from TestCase.ApiLogin_Po.common.helper import *
+from common.helper import *
 import yaml
 
 class OperaYaml:
